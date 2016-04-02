@@ -3,4 +3,36 @@
         <h2>The most common ani-patterns</h2>
         <img src="/img/bad-idea.png" alt="bad idea">
     </section>
+
+    <section>
+        <h3>The almighty method/function</h3>
+        <p>How and why people can write 500+ lines-long method is hard to understand.
+            Some are thousands of lines long.
+            Problems created:</p>
+        <ul>
+            <li>Hard to understand</li>
+            <li>Untestable</li>
+            <li>Usually cannot be reused</li>
+            <li>Obviously try to do more than they should</li>
+            <li>Take a huge amount of time to fix/refactor</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Copy/Paste/Mutate</h3>
+        <p>Instead of separating code into reusable classes or components, code was copied and pasted.</p>
+        <p>Over the time the copy-pasted parts have been changed differently,
+            and became different mutations of the same code.</p>
+    </section>
+
+    <section>
+        <h3>Bonus: Weird "optimizations"</h3>
+        <p>For example, instead of using a simple <strong>foreach</strong>, coming up with something like this</p>
+        <pre>
+            <code class="hljs" data-trim contenteditable>
+                reset($list);
+                while (list($key, $item) = each($list)) {
+            </code>
+        </pre>
+    </section>
 </section>

@@ -40,6 +40,7 @@
     <div class="slides">
         <?php include('parts/introduction.html'); ?>
         <?php include('parts/anti-patterns.html'); ?>
+        <?php include('parts/solutions.html'); ?>
     </div>
 </div>
 
